@@ -21,18 +21,24 @@ body {
     height: 100vh;
     gap: 2em;
 }
+h1, h2 {
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+a, a:visited {
+    color: #000200;
+    text-decoration: underline;
+}
 
-.header {
+.header, .footer {
     background-color: #003c00;
     color: #fefeff;
     padding: 0.5em;
     text-align: left;
     width: 100%;
     font-size: 0.8em;
-    font-weight: bold;
-    font-family: 'Playfair Display', serif;
 }
-.header > h1 {
+.header h1 {
     margin-left: 1em;
 }
 
@@ -42,10 +48,39 @@ body {
     align-items: center;
     width: 100%;
 }
-.photo > img {
+.photo img {
     height: 50vh
 }
 
 .explanation {
     width: min(90vw, 800px);
+}
+.explanation h2 {
+    font-size: 1.5em;
+    color: #003c00;
+}
+
+span {
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+.red {
+    color: #ff0000;
+}
+.yellow {
+    color: #ffff00;
+}
+.brown {
+    color: #6f3d3d;
+}
+.green {
+    color: #003c00;
+}
+
+.footer {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.footer a, .footer a:visited {
+    color: #ffff00;
 }
