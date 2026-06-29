@@ -1,0 +1,51 @@
+/* 
+    green: #003c00
+    yellow: #ffff00
+    red: #ff0000
+    brown: #6f3d3d
+    white: #fefeff
+    black: #002000
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #fefeff;
+    color: #002000;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    gap: 2em;
+}
+
+.header {
+    background-color: #003c00;
+    color: #fefeff;
+    padding: 0.5em;
+    text-align: left;
+    width: 100%;
+    font-size: 0.8em;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+.header > h1 {
+    margin-left: 1em;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.photo > img {
+    height: 50vh
+}
+
+.explanation {
+    width: min(90vw, 800px);
+}
