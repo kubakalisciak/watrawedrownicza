@@ -29,6 +29,9 @@ a, a:visited {
     color: #000200;
     text-decoration: underline;
 }
+i {
+    padding: 1.5em;
+}
 
 .header, .footer {
     background-color: #003c00;
@@ -41,7 +44,9 @@ a, a:visited {
 .header h1 {
     margin-left: 1em;
 }
-
+.header a {
+    color: #fefeff;
+}
 .photo {
     display: flex;
     justify-content: center;
@@ -59,7 +64,12 @@ a, a:visited {
     font-size: 1.5em;
     color: #003c00;
 }
-
+.footer {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 span {
     font-weight: bold;
     font-family: 'Playfair Display', serif;
